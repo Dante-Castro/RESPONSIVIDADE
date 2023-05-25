@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  width: 37.5rem;
+  margin: auto;
+  background: #ECE9FD;
+  font-size: 1.6rem;
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  padding: 6.0rem 2.3rem 6.6rem;
+}
+main {
+  width: 32.9rem;
+  margin: auto;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset + fieldset {
+  margin-top: 7.2rem;
+}
+.fieldset-event {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.fieldset-event + .fieldset-event {
+  margin-top: 3.2rem;
+}
+.fieldset-wrapper span {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: rgb(105 83 224);
+  margin-bottom: 1.7rem;
+}
+.fieldset-wrapper h1 {
+  font-weight: 800;
+  font-size: 4.0rem;
+  line-height: 4.8rem;
+  color: #090039;
+  margin-bottom: 1.4rem;
+}
+.fieldset-wrapper p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: rgba(10, 0, 57, 0.64);
+  margin-bottom: 3.2rem;
+}
+.fieldset-wrapper a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #090039;
+}
+.fieldset-wrapper1 h4 {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8.0rem;
+  letter-spacing: -0.2rem;
+  color: #090039;
+}
+.fieldset-wrapper1 p {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #090039;
+}
+@media (min-width:700px) { 
+  body {
+    margin: 0;
+    padding-left: 8rem;
+  }
+ main {
+  display: flex;
+  gap: 11rem;
+  max-width: 1020px;
+  max-height: 376px;
+  margin: 20px auto;
+ }
+ .fieldset-wrapper {
+  width: 485px;
+  margin-top: 30px;
+ }
+ .fieldset-wrapper1 {
+  width: 510px;
+ }
+}
